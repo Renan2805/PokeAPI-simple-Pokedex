@@ -1,0 +1,176 @@
+.pokemon-page {
+    padding: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.info1 {
+    width: 25rem;
+}
+
+.info1 img {
+    width: 100%;
+    background: #d3d3d3;
+    border-radius: .7rem;
+    
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 .7rem 0;
+    width: 100%;
+}
+
+.types h3 {
+    width: 12ch;
+    margin: 0;
+    padding: .3rem 0;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.info2 {
+    padding: 2rem;
+    margin: 0 0 0 2rem;
+
+    background: #d3d3d3;
+    border-radius: .7rem;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.weight-height {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: max-content;
+    margin-bottom: 1rem;
+}
+
+.weight-height h2{
+    line-height: 1;
+}
+
+.info2 h1 {
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.stats {
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    height: calc(255px + 8rem);
+
+    background: #d3d3d3;
+    border-radius: .7rem;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.level {
+    margin: 0 auto;
+    background: #6a6a6a;
+    width: 6rem;
+    border-radius: .7rem;
+}
+
+.stat {
+    font-size: 32px;
+    text-align: center;
+}
+
+.sprites {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    border-radius: .7rem;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.varieties {
+    width: 3rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name h1 {
+    font-size: 96px;
+    margin: 0;
+}
+
+.stats-mobile {
+    display: none;
+    padding: 2rem;
+    margin: 0 32px;
+    background: #d3d3d3;
+    border-radius: .7rem;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.stat-mobile {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+}
+
+.stat-mobile p{
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .stats-mobile {
+        display: block;
+    }
+
+    .stats {
+        display: none;
+    }
+
+    .info {
+        justify-content: center;
+    }
+
+    .info1 {
+        width: 100%;
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .info2 {
+        margin: 1rem 2rem 0 2rem;
+        width: 100%;
+    }
+
+    .info2 h1 {
+        font-size: 64px;
+        font-weight: 200;
+    }
+
+    .level {
+        width: 1rem;
+    }
+}

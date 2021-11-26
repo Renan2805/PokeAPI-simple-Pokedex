@@ -1,0 +1,54 @@
+.Pokemon-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pagination {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button {
+    margin: 0;
+    width: 10rem;
+    padding: .3rem 0;
+    text-align: center;
+    border-radius: 1em;
+    border: 0;
+    background: #d3d3d3;
+    font-size: 24px;
+}
+
+.pagination h1 {
+    margin: 0 1rem;
+    line-height: 1;
+}
+
+.Pokemon-list input {
+    padding: .2rem 1rem;
+    border: 0;
+    border-radius: .7rem;
+
+    background: #d3d3d3;
+}
+
+.Pokemon-list input:focus {
+    outline: 0;
+}
+
+@media (max-width: 575px) {
+    .pagination button {
+        width: 5rem;
+    }
+}

@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 
-function App() {
+const Home = () => {
+  window.document.title = "Home | Pokédex";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1 className="link">
+        <Link to="/pokemons/">
+          Pokémons
+        </Link>
+      </h1>
+      <h1 className="link">
+        <Link to="/berries/">
+          Berries
+        </Link>
+      </h1>
     </div>
-  );
+    );
 }
-
-export default App;
+export default Home;

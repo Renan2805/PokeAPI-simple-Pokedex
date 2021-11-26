@@ -1,0 +1,24 @@
+.berry-card {
+    margin: 10px 0;
+    padding: .7rem;
+
+    width: 200px;
+
+    background: #e9e9e9;
+    border-radius: .7rem;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.berry-card img {
+    width: 100%;
+    background-color: #d3d3d3;
+    border-radius: .7rem;
+}
+
+.berry-card p, h1 {
+    margin: 0;
+}
+
+.id {
+    margin-left: .5rem !important;
+}
