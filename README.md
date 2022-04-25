@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ed5fdb1-b692-4a84-9d54-b0004d6ea171/deploy-status)](https://app.netlify.com/sites/ultraultimate-pokedex/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
